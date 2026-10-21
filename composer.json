@@ -57,6 +57,11 @@
 		},
 		"changelogger": {
 			"link-template": "https://github.com/Automattic/jetpack-podcast/compare/v${old}...v${new}"
+		},
+		"dependencies": {
+			"test-only": [
+				"packages/my-jetpack"
+			]
 		}
 	},
 	"config": {
